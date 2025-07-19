@@ -11,7 +11,7 @@ class_labels = ['Bear', 'Bird', 'Cat', 'Cow', 'Deer', 'Dog', 'Dolphin', 'Elephan
                 'Giraffe', 'Horse', 'Kangaroo', 'Lion', 'Panda', 'Tiger', 'Zebra']
 
 # Path to your test image
-img_path = 'Unified_mentor\dataset\Dolphin\Dolphin_2_2.jpg'  # <-- change this
+img_path = 'ADD the path of your image'  # <-- change this
 
 # Load and preprocess the image
 img = image.load_img(img_path, target_size=(224, 224))
