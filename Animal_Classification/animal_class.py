@@ -8,7 +8,7 @@ from tensorflow.keras.models import Model
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
 # Set paths
-DATASET_PATH = 'Unified_mentor\dataset'  # Each folder under this path is a class
+DATASET_PATH = 'dataset'  # Each folder under this path is a class
 IMAGE_SIZE = (224, 224)
 BATCH_SIZE = 32
 EPOCHS = 10
